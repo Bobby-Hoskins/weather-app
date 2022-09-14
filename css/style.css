@@ -27,6 +27,11 @@ body {
   text-align: center;
 }
 
+.icon {
+  width: 50%;
+  margin: auto auto;
+}
+
 .degree-section {
   display: flex;
   justify-content: center;
@@ -41,4 +46,27 @@ body {
 
 .degree-section h2 {
   font-size: 4rem;
+}
+
+/* Media Query */
+/* Medium Screens */
+@media (min-width: 768px) {
+  .location-timezone {
+    font-size: 1.75rem;
+  }
+
+  .degree-section h2 {
+    font-size: 6rem;
+  }
+
+  .temp-description {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .icon {
+    width: 15%;
+    padding: 4rem 0;
+  }
 }
